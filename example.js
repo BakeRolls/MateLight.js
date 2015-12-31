@@ -16,9 +16,7 @@ setInterval(() => {
 		g: (Math.floor(Math.random() * 256)) + 1,
 		b: (Math.floor(Math.random() * 256)) + 1
 	}
-	new MateLight('localhost').crate(crate.x, crate.y, color.r, color.g, color.b).send((ctx) => {})
-
-	crate.x++
+	new MateLight('localhost').crate(crate.x++, crate.y, color.r, color.g, color.b).send((ctx) => {})
 
 	if(crate.x >= 8) {
 		crate.x = 0
