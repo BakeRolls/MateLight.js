@@ -1,6 +1,6 @@
 'use strict'
 
-let MateLight = require('./MateLight').MateLight
+let MateLight = require('./MateLight')
 
 // send an image
 new MateLight().image('schnabli.jpg').send((ctx) => {

@@ -105,4 +105,4 @@ class MateLight {
 	}
 }
 
-exports.MateLight = MateLight
+module.exports = MateLight
