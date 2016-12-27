@@ -5,7 +5,7 @@ let Canvas = require('canvas')
 
 class MateLight {
 	constructor(host, port) {
-		this.host = host || 'matelight.rocks'
+		this.host = host || 'api.matelight.rocks'
 		this.port = port || 1337
 		this.width = 40
 		this.height = 16
