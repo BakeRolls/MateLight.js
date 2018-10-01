@@ -1,0 +1,18 @@
+{
+  "name": "matelightjs",
+  "version": "0.0.1337",
+  "description": "ES6 Class for matelight",
+  "main": "MateLight.js",
+  "dependencies": {
+    "canvas": "^1.6.12",
+    "dgram": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BakeRolls/MateLight.js.git"
+  },
+  "keywords": ["matelights"],
+  "author": "BakeRolls",
+  "license": "WTFPL",
+  "homepage": "https://github.com/BakeRolls/MateLight.js"
+}
